@@ -1,0 +1,4 @@
+SELECT *
+FROM orders
+WHERE date >= CURDATE() - INTERVAL 10 DAY
+ORDER BY date DESC;
